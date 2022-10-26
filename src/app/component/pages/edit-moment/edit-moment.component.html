@@ -1,0 +1,5 @@
+<div class="edit-moment">
+  <h2>Editing moment {{ moment.title }} </h2>
+  <!-- <p hidden>{{ moment.title }}</p> -->
+  <app-moment-form [momentData]="moment" [btnText]="editTxt" (onFormSubmit)="editSubmit($event)"></app-moment-form>
+</div>

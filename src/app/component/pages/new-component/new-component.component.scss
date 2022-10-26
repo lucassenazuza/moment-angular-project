@@ -1,0 +1,11 @@
+@use '../../../../styles' as variable;
+
+
+h1{
+  margin-top: 10px;
+  font-weight: bold;
+  text-align: center;
+}
+span{
+ color: variable.$color-base;
+}

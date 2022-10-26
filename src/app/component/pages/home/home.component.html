@@ -1,0 +1,16 @@
+<div class="moments-container">
+  <div class="search-container">
+    <form>
+      <fa-icon [icon]="faSearch"></fa-icon>
+      <input type="text" placeholder="digite seu momento..." (input)="search($event)" />
+    </form>
+  </div>
+  <div class="home-container">
+    <div class="photo-container" *ngFor="let moment of allMoments">
+      <h2>{{moment.title}}</h2>
+      <img src="{{ photoUrl }}/{{moment.image}}" alt="img" />
+      <a routerLink="/moment/{{ moment.id }}">Detalhes</a>
+      <a (click)="deleteMoment(moment)">Deletar</a>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,37 @@
+
+nav{
+display: flex;
+justify-content: space-between;
+border-bottom: 2px solid rgb(187, 178, 178);
+}
+.main{
+  padding-left: 1em;
+}
+img {
+  width: 80px;
+  margin-right: 0.6em;
+}
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin-left:50px
+}
+li a{
+  text-decoration: none;
+  color: rgb(177, 177, 65);
+
+}
+li a:hover{
+  color: rgb(129, 138, 2);
+  background-color: rgb(215, 216, 159);
+  transition: .4s;
+  padding: 5px;
+  border-radius: 10%;
+}
+li {
+display: inline;
+font-size: 2em;
+padding: 10px;
+}

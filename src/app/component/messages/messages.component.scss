@@ -1,0 +1,25 @@
+@use '../../../styles.scss' as *;
+
+
+.message {
+  position: fixed;
+  width: 300px;
+  top: 50px;
+  margin-left: 40%;
+  border: solid 1px black;
+  z-index: 10px;
+  background-color: $color-base;
+  padding: 20px
+}
+
+.message-header {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 10px;
+}
+button{
+  padding: 5px 10px;
+}
+p{
+  text-align: center;
+}

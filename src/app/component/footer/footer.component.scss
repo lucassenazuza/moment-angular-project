@@ -1,0 +1,12 @@
+@use '../../../styles' as variable;
+
+footer{
+  text-align: center;
+  font-weight: bold;
+  color: rgb(61, 61, 61);
+  border-top: solid 2px variable.$color-base;
+  padding: 10px;
+}
+span{
+  color: variable.$color-base;
+}
